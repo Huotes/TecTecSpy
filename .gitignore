@@ -4,9 +4,6 @@ venv/
 #---Logs---#
 logs/
 
-#---Screenshots---#
-screenshots/
-
 #---Compilados---#
 __pycache__/
 *.py[cod]
