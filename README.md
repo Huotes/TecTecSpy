@@ -1,6 +1,6 @@
-# TecTecKey - Keylogger em Python
+# TecTecSpy - Keylogger em Python
 
-**TecTecKey** é um keylogger simples e escalável escrito em Python, projetado para capturar as teclas pressionadas pelo usuário e armazená-las em um arquivo de log. O projeto também permite capturar screenshots periódicas ou baseadas em eventos de teclado.
+**TecTecSpy** é um keylogger simples e escalável escrito em Python, projetado para capturar as teclas pressionadas pelo usuário e armazená-las em um arquivo de log. O projeto também permite capturar screenshots periódicas ou baseadas em eventos de teclado.
 
 ## Funcionalidades
 
@@ -12,11 +12,11 @@
 ## Estrutura do Projeto
 
 ```plaintext
-TecTecKey/
+TecTecSpy/
 │
 ├── logs/                        # Diretório de logs de teclas
 ├── screenshots/                 # Diretório de screenshots capturadas
-├── teckey/                      # Diretório principal dos módulos do keylogger
+├── tecspy/                      # Diretório principal dos módulos do keylogger
 │   ├── keylogger.py             # Módulo de captura de teclas
 │   ├── logger.py                # Módulo de gravação de logs
 │   ├── screenshot.py            # Módulo de captura de tela
