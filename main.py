@@ -1,4 +1,3 @@
-import time
 from tecspy.keylogger import KeyLogger
 from tecspy.logger import Logger
 from tecspy.config import LOG_FILE_PATH
